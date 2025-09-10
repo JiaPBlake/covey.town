@@ -1,5 +1,5 @@
 {
-    "name": "covey-town",
+    "name": "covey_attempt_1",
     "version": "1.0.0",
     "description": "Development setup",
     "main": "index.js",
@@ -43,11 +43,14 @@
         "typescript-is": "^0.17.0"
     },
     "files": [
-	    "frontend/src/classes/interactable/ConnectFourAreaController.ts",
+        "frontend/src/classes/interactable/ConnectFourAreaController.ts",
         "frontend/src/classes/interactable/InteractableAreaController.ts",
         "frontend/src/components/Town/interactables/ConnectFour/ConnectFourArea.tsx",
         "frontend/src/components/Town/interactables/ConnectFour/ConnectFourBoard.tsx",
         "frontend/src/components/Town/interactables/GamesArea.tsx",
         "frontend/src/components/SocialSidebar/InteractableAreasList.tsx"
-    ]
+    ],
+    "directories": {
+        "doc": "docs"
+    }
 }
